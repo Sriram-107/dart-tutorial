@@ -2,7 +2,7 @@ import 'package:collection/collection.dart';
 
 void main(List<String> args) {
   final Set<String> names = {'foo', 'bar', 'baz'};
-  names.add('foo'); // Sets cannot have unique elements.
+  names.add('foo'); // Sets can only have unique elements.
   print(names);
 
   print('---------- Spread Operator - Converting Lists to Set ----------');
